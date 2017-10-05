@@ -1,0 +1,10 @@
+version: "3"
+
+volumes:
+  volume_name:
+    driver: rexray
+
+services:
+  image: image_name:latest
+  volumes:
+    - volume_name:/mount_point

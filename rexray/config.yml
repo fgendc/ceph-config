@@ -1,0 +1,4 @@
+libstorage:
+  service: rbd
+rbd:
+  defaultPool: rbd
